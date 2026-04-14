@@ -32,6 +32,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'acme_project.urls'
 
+LOGIN_URL = 'login'
+
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
